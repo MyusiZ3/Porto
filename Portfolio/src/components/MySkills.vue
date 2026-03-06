@@ -2,7 +2,7 @@
   <!-- My Skills Section -->
   <section
     id="skills"
-    class="bg-[#171717] py-20 px-6 lg:px-[10rem] relative overflow-hidden"
+    class="bg-[#171717] py-20 px-6 lg:px-40 relative overflow-hidden"
   >
     <!-- Decorative Side Tabs -->
     <img
@@ -47,7 +47,7 @@
 
         <!-- Left Dot Matrix (4x3) -->
         <div
-          class="absolute -top-4 lg:-top-[-2rem] -left-2 lg:-left-6 grid grid-cols-4 gap-1 lg:gap-1.5 opacity-40"
+          class="absolute -top-4 lg:top-8 -left-2 lg:-left-6 grid grid-cols-4 gap-1 lg:gap-1.5 opacity-40"
         >
           <div class="w-1 lg:w-1.5 h-1 lg:h-1.5 bg-white rounded-full"></div>
           <div class="w-1 lg:w-1.5 h-1 lg:h-1.5 bg-white rounded-full"></div>
@@ -65,7 +65,7 @@
 
         <!-- Right Dot Matrix (4x3) -->
         <div
-          class="absolute -top-4 lg:-top-[-3rem] -right-2 lg:-right-6 grid grid-cols-4 gap-1 lg:gap-1.5 opacity-40"
+          class="absolute -top-4 lg:top-12 -right-2 lg:-right-6 grid grid-cols-4 gap-1 lg:gap-1.5 opacity-40"
         >
           <div class="w-1 lg:w-1.5 h-1 lg:h-1.5 bg-white rounded-full"></div>
           <div class="w-1 lg:w-1.5 h-1 lg:h-1.5 bg-white rounded-full"></div>
@@ -162,7 +162,7 @@
           </div>
           <!-- Canva -->
           <div
-            class="w-16 h-16 lg:w-[85px] lg:h-[85px] bg-gradient-to-tr from-[#00C4CC] to-[#7D2AE8] rounded-[16px] lg:rounded-[24px] flex items-center justify-center hover:scale-110 transition-transform shadow-xl overflow-hidden"
+            class="w-16 h-16 lg:w-[85px] lg:h-[85px] bg-linear-to-tr from-[#00C4CC] to-[#7D2AE8] rounded-[16px] lg:rounded-[24px] flex items-center justify-center hover:scale-110 transition-transform shadow-xl overflow-hidden"
           >
             <span
               class="text-white font-bold italic text-lg lg:text-[22px] font-['Poppins']"

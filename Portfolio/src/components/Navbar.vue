@@ -45,7 +45,7 @@
           >Contact Me</a
         >
         <button
-          class="w-8 h-8 flex items-center justify-center bg-violet-500 text-white rounded-[10px] hover:bg-violet-600 transitionfont-bold text-[13px] lg:text-[15px] font-['Roboto'] font-bold hover:bg-violet-600 transition"
+          class="w-8 h-8 flex items-center justify-center bg-violet-500 text-white rounded-[10px] hover:bg-violet-600 transition font-bold text-[13px] lg:text-[15px] font-['Roboto']"
         >
           ID
         </button>

@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[#171717]">
-    <section class="pt-12 lg:py-16 px-6 lg:px-[10rem] overflow-hidden">
+    <section class="pt-12 lg:py-16 px-6 lg:px-40 overflow-hidden">
       <div class="container mx-auto space-y-8 lg:space-y-10 relative">
         <div class="relative z-20">
           <h1
@@ -14,7 +14,7 @@
             >
           </h1>
           <p
-            class="text-white text-base lg:text-[16px] w-full lg:w-[35rem] lg:ml-2 text-justify font-['Roboto']"
+            class="text-white text-base lg:text-[16px] w-full lg:w-140 lg:ml-2 text-justify font-['Roboto']"
           >
             Combine creative vision with technical skills to produce engaging
             visual content across platforms — from graphic design and UI/UX to
@@ -34,7 +34,7 @@
       <img
         src="/images/Hero_Dsg.png"
         alt="hero"
-        class="w-[40rem] lg:w-[85rem] sm:w-3/4 lg:w-3/3 mt-1 lg:mt-[-21.5rem] relative z-12 lg:mx-0 lg:-mr-0"
+        class="w-160 lg:w-340 sm:w-3/4 mt-1 lg:-mt-86 relative z-12 lg:mx-0 lg:mr-0"
       />
     </div>
 
@@ -217,7 +217,7 @@
             <img
               src="/images/about_me.png"
               alt="About Me Graphic"
-              class="w-full lg:w-[36rem]"
+              class="w-full lg:w-xl"
             />
           </div>
 
@@ -274,7 +274,7 @@
                 <img
                   src="/images/accent_1.png"
                   alt="Accent"
-                  class="w-24 lg:w-[10rem] absolute lg:relative bottom-0 right-0 lg:float-end opacity-40 lg:opacity-100 z-10 pointer-events-none"
+                  class="w-24 lg:w-40 absolute lg:relative bottom-0 right-0 lg:float-end opacity-40 lg:opacity-100 z-10 pointer-events-none"
                 />
               </li>
             </ul>

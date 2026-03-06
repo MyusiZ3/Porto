@@ -73,7 +73,7 @@
               </div>
               <div>
                 <h4
-                  class="text-[18px] lg:text-[24px] font-semibold font-['Poppins'] text-[#171717] mb-1"
+                  class="text-[18px] lg:text-[20px] font-semibold font-['Poppins'] text-[#171717] mb-1"
                 >
                   Information Technology
                 </h4>
@@ -104,7 +104,7 @@
               </div>
               <div>
                 <h4
-                  class="text-[18px] lg:text-[24px] font-semibold font-['Poppins'] text-[#171717] mb-1"
+                  class="text-[18px] lg:text-[20px] font-semibold font-['Poppins'] text-[#171717] mb-1"
                 >
                   Teaching Assistant
                 </h4>
@@ -134,7 +134,7 @@
               </div>
               <div>
                 <h4
-                  class="text-[18px] lg:text-[24px] font-semibold font-['Poppins'] text-[#171717] mb-1"
+                  class="text-[18px] lg:text-[20px] font-semibold font-['Poppins'] text-[#171717] mb-1"
                 >
                   Publication & Media Designer
                 </h4>
@@ -177,7 +177,7 @@
               </div>
               <div>
                 <h4
-                  class="text-[18px] lg:text-[24px] font-semibold font-['Poppins'] text-[#171717] mb-1"
+                  class="text-[18px] lg:text-[20px] font-semibold font-['Poppins'] text-[#171717] mb-1"
                 >
                   Multimedia Project Crew
                 </h4>
@@ -207,7 +207,7 @@
               </div>
               <div>
                 <h4
-                  class="text-[18px] lg:text-[24px] font-semibold font-['Poppins'] text-[#171717] mb-1"
+                  class="text-[18px] lg:text-[20px] font-semibold font-['Poppins'] text-[#171717] mb-1"
                 >
                   Team Leader - Intern Project
                 </h4>
@@ -258,7 +258,7 @@
               </div>
               <div>
                 <h4
-                  class="text-[18px] lg:text-[24px] font-semibold font-['Poppins'] text-[#171717] mb-1"
+                  class="text-[18px] lg:text-[20px] font-semibold font-['Poppins'] text-[#171717] mb-1"
                 >
                   Project Manager & Game Dev
                 </h4>
@@ -289,7 +289,7 @@
               </div>
               <div>
                 <h4
-                  class="text-[18px] lg:text-[24px] font-semibold font-['Poppins'] text-[#171717] mb-1"
+                  class="text-[18px] lg:text-[20px] font-semibold font-['Poppins'] text-[#171717] mb-1"
                 >
                   Game Dev & UI/UX Designer
                 </h4>
@@ -319,7 +319,7 @@
               </div>
               <div>
                 <h4
-                  class="text-[18px] lg:text-[24px] font-semibold font-['Poppins'] text-[#171717] mb-1"
+                  class="text-[18px] lg:text-[20px] font-semibold font-['Poppins'] text-[#171717] mb-1"
                 >
                   VR Dev & ENV Designer
                 </h4>
@@ -362,7 +362,7 @@
               </div>
               <div>
                 <h4
-                  class="text-[18px] lg:text-[24px] font-semibold font-['Poppins'] text-[#171717] mb-1"
+                  class="text-[18px] lg:text-[20px] font-semibold font-['Poppins'] text-[#171717] mb-1"
                 >
                   AR Developer & Designer
                 </h4>
@@ -392,7 +392,7 @@
               </div>
               <div>
                 <h4
-                  class="text-[18px] lg:text-[24px] font-semibold font-['Poppins'] text-[#171717] mb-1"
+                  class="text-[18px] lg:text-[20px] font-semibold font-['Poppins'] text-[#171717] mb-1"
                 >
                   UI/UX Designer
                 </h4>
@@ -422,7 +422,7 @@
               </div>
               <div>
                 <h4
-                  class="text-[18px] lg:text-[24px] font-semibold font-['Poppins'] text-[#171717] mb-1"
+                  class="text-[18px] lg:text-[20px] font-semibold font-['Poppins'] text-[#171717] mb-1"
                 >
                   Frontend & Backend Dev
                 </h4>
