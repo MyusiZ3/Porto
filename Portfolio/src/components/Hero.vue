@@ -6,7 +6,7 @@
           <h1
             v-motion
             :initial="{ opacity: 0, y: 50 }"
-            :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, ease: 'easeOut' } }"
+            :visible="{ opacity: 1, y: 0, transition: { duration: 800, ease: 'easeOut' } }"
             class="text-6xl sm:text-7xl lg:text-[110px] font-bold text-white mb-4 font-['Poppins']"
           >
             Multimedia <br class="block lg:hidden" />
@@ -19,7 +19,7 @@
           <p
             v-motion
             :initial="{ opacity: 0, y: 30 }"
-            :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, delay: 200, ease: 'easeOut' } }"
+            :visible="{ opacity: 1, y: 0, transition: { duration: 700, delay: 200, ease: 'easeOut' } }"
             class="text-white text-base lg:text-[16px] w-full lg:w-140 lg:ml-2 text-justify font-['Roboto']"
           >
             Combine creative vision with technical skills to produce engaging
@@ -29,7 +29,7 @@
           <div
             v-motion
             :initial="{ opacity: 0, y: 20 }"
-            :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 400, ease: 'easeOut' } }"
+            :visible="{ opacity: 1, y: 0, transition: { duration: 600, delay: 400, ease: 'easeOut' } }"
             class="mt-6 lg:mt-8"
           >
             <button
@@ -45,7 +45,7 @@
       <img
         v-motion
         :initial="{ opacity: 0, x: 80 }"
-        :visible-once="{ opacity: 1, x: 0, transition: { duration: 900, delay: 300, ease: 'easeOut' } }"
+        :visible="{ opacity: 1, x: 0, transition: { duration: 900, delay: 300, ease: 'easeOut' } }"
         src="/images/Hero_Dsg.png"
         alt="hero"
         class="w-160 lg:w-340 sm:w-3/4 mt-1 lg:-mt-86 relative z-12 lg:mx-0 lg:mr-0"
@@ -60,7 +60,7 @@
           <div
             v-motion
             :initial="{ opacity: 0, x: -50 }"
-            :visible-once="{ opacity: 1, x: 0, transition: { duration: 700, ease: 'easeOut' } }"
+            :visible="{ opacity: 1, x: 0, transition: { duration: 700, ease: 'easeOut' } }"
           >
             <h2
               class="text-4xl lg:text-[48px] font-bold font-['Poppins'] text-violet-500 mb-4 lg:mb-6"
@@ -94,7 +94,7 @@
           <div
             v-motion
             :initial="{ opacity: 0, x: -50 }"
-            :visible-once="{ opacity: 1, x: 0, transition: { duration: 700, delay: 150, ease: 'easeOut' } }"
+            :visible="{ opacity: 1, x: 0, transition: { duration: 700, delay: 150, ease: 'easeOut' } }"
           >
             <h3
               class="text-2xl lg:text-[28px] font-bold font-['Poppins'] text-violet-500 mb-4 lg:mb-6"
@@ -105,7 +105,7 @@
               <li
                 v-motion
                 :initial="{ opacity: 0, y: 20 }"
-                :visible-once="{ opacity: 1, y: 0, transition: { duration: 500, delay: 200, ease: 'easeOut' } }"
+                :visible="{ opacity: 1, y: 0, transition: { duration: 500, delay: 200, ease: 'easeOut' } }"
                 class="flex gap-4"
               >
                 <span class="text-white mt-1.5"
@@ -133,7 +133,7 @@
               <li
                 v-motion
                 :initial="{ opacity: 0, y: 20 }"
-                :visible-once="{ opacity: 1, y: 0, transition: { duration: 500, delay: 350, ease: 'easeOut' } }"
+                :visible="{ opacity: 1, y: 0, transition: { duration: 500, delay: 350, ease: 'easeOut' } }"
                 class="flex gap-4"
               >
                 <span class="text-white mt-1.5"
@@ -163,7 +163,7 @@
           <div
             v-motion
             :initial="{ opacity: 0, x: -50 }"
-            :visible-once="{ opacity: 1, x: 0, transition: { duration: 700, delay: 300, ease: 'easeOut' } }"
+            :visible="{ opacity: 1, x: 0, transition: { duration: 700, delay: 300, ease: 'easeOut' } }"
           >
             <h3
               class="text-2xl lg:text-[28px] font-bold font-['Poppins'] text-violet-500 mb-4 lg:mb-6"
@@ -174,7 +174,7 @@
               <li
                 v-motion
                 :initial="{ opacity: 0, y: 20 }"
-                :visible-once="{ opacity: 1, y: 0, transition: { duration: 500, delay: 350, ease: 'easeOut' } }"
+                :visible="{ opacity: 1, y: 0, transition: { duration: 500, delay: 350, ease: 'easeOut' } }"
                 class="flex gap-4"
               >
                 <span class="text-white mt-1.5"
@@ -197,7 +197,7 @@
               <li
                 v-motion
                 :initial="{ opacity: 0, y: 20 }"
-                :visible-once="{ opacity: 1, y: 0, transition: { duration: 500, delay: 500, ease: 'easeOut' } }"
+                :visible="{ opacity: 1, y: 0, transition: { duration: 500, delay: 500, ease: 'easeOut' } }"
                 class="flex gap-4"
               >
                 <span class="text-white mt-1.5"
@@ -226,7 +226,7 @@
             <div
               v-motion
               :initial="{ opacity: 0, scale: 0.8 }"
-              :visible-once="{ opacity: 1, scale: 1, transition: { duration: 600, ease: 'easeOut' } }"
+              :visible="{ opacity: 1, scale: 1, transition: { duration: 600, ease: 'easeOut' } }"
               class="flex flex-col items-start w-1/2 lg:w-auto"
             >
               <img
@@ -248,7 +248,7 @@
             <div
               v-motion
               :initial="{ opacity: 0, scale: 0.8 }"
-              :visible-once="{ opacity: 1, scale: 1, transition: { duration: 600, delay: 200, ease: 'easeOut' } }"
+              :visible="{ opacity: 1, scale: 1, transition: { duration: 600, delay: 200, ease: 'easeOut' } }"
               class="flex flex-col items-start w-1/2 lg:w-auto"
             >
               <img
@@ -272,7 +272,7 @@
           <div
             v-motion
             :initial="{ opacity: 0, y: 40 }"
-            :visible-once="{ opacity: 1, y: 0, transition: { duration: 800, delay: 100, ease: 'easeOut' } }"
+            :visible="{ opacity: 1, y: 0, transition: { duration: 800, delay: 100, ease: 'easeOut' } }"
             class="relative mt-10 lg:mt-22 pb-10 lg:pb-0"
           >
             <img
@@ -285,7 +285,7 @@
           <div
             v-motion
             :initial="{ opacity: 0, x: 50 }"
-            :visible-once="{ opacity: 1, x: 0, transition: { duration: 700, delay: 100, ease: 'easeOut' } }"
+            :visible="{ opacity: 1, x: 0, transition: { duration: 700, delay: 100, ease: 'easeOut' } }"
             class="relative mt-10 lg:mt-25 pb-10 lg:pb-0"
           >
             <h3
@@ -297,7 +297,7 @@
               <li
                 v-motion
                 :initial="{ opacity: 0, y: 20 }"
-                :visible-once="{ opacity: 1, y: 0, transition: { duration: 500, delay: 200, ease: 'easeOut' } }"
+                :visible="{ opacity: 1, y: 0, transition: { duration: 500, delay: 200, ease: 'easeOut' } }"
                 class="flex gap-4"
               >
                 <span class="text-white mt-0"
@@ -324,7 +324,7 @@
               <li
                 v-motion
                 :initial="{ opacity: 0, y: 20 }"
-                :visible-once="{ opacity: 1, y: 0, transition: { duration: 500, delay: 350, ease: 'easeOut' } }"
+                :visible="{ opacity: 1, y: 0, transition: { duration: 500, delay: 350, ease: 'easeOut' } }"
                 class="flex gap-4"
               >
                 <span class="text-white mt-1.5"

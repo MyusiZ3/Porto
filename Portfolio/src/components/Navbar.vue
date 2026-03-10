@@ -1,10 +1,18 @@
 <script setup>
-import { ref } from 'vue';
+import { ref } from "vue";
 
 const isMenuOpen = ref(false);
 
+const emit = defineEmits(["navigate"]);
+
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value;
+};
+
+const handleNav = (target, label, event) => {
+  event.preventDefault();
+  isMenuOpen.value = false;
+  emit("navigate", { target, label });
 };
 </script>
 
@@ -22,6 +30,7 @@ const toggleMenu = () => {
         <img src="/images/logo.png" alt="logo" class="w-10 lg:w-14" />
         <a
           href="#"
+          @click="handleNav('', 'Home', $event)"
           class="text-white font-semibold text-[13px] lg:text-[15px] font-['Poppins']"
           >Muhamad<br />Sidik</a
         >
@@ -31,31 +40,37 @@ const toggleMenu = () => {
       <div class="hidden lg:flex items-center gap-14 uppercase">
         <a
           href="#"
+          @click="handleNav('', 'Home', $event)"
           class="text-white font-bold text-[13px] lg:text-[15px] font-['Roboto'] hover:text-violet-500 transition"
           >Home</a
         >
         <a
           href="#about"
+          @click="handleNav('about', 'About', $event)"
           class="text-white font-bold text-[13px] lg:text-[15px] font-['Roboto'] hover:text-violet-500 transition"
           >About</a
         >
         <a
           href="#experience"
+          @click="handleNav('experience', 'Experience', $event)"
           class="text-white font-bold text-[13px] lg:text-[15px] font-['Roboto'] hover:text-violet-500 transition"
           >Experience</a
         >
         <a
           href="#skills"
+          @click="handleNav('skills', 'Skills', $event)"
           class="text-white font-bold text-[13px] lg:text-[15px] font-['Roboto'] hover:text-violet-500 transition"
           >Skills</a
         >
         <a
           href="#experience"
+          @click="handleNav('experience', 'Work', $event)"
           class="text-white font-bold text-[13px] lg:text-[15px] font-['Roboto'] hover:text-violet-500 transition"
           >Work</a
         >
         <a
           href="#contact"
+          @click="handleNav('contact', 'Contact', $event)"
           class="text-white font-bold text-[13px] lg:text-[15px] font-['Roboto'] hover:text-violet-500 transition"
           >Contact Me</a
         >
@@ -83,37 +98,37 @@ const toggleMenu = () => {
       <div class="flex flex-col items-center gap-6 uppercase overflow-hidden">
         <a
           href="#"
-          @click="isMenuOpen = false"
+          @click="handleNav('', 'Home', $event)"
           class="text-white font-bold text-[14px] font-['Roboto'] hover:text-violet-500 transition"
           >Home</a
         >
         <a
           href="#about"
-          @click="isMenuOpen = false"
+          @click="handleNav('about', 'About', $event)"
           class="text-white font-bold text-[14px] font-['Roboto'] hover:text-violet-500 transition"
           >About</a
         >
         <a
           href="#experience"
-          @click="isMenuOpen = false"
+          @click="handleNav('experience', 'Experience', $event)"
           class="text-white font-bold text-[14px] font-['Roboto'] hover:text-violet-500 transition"
           >Experience</a
         >
         <a
           href="#skills"
-          @click="isMenuOpen = false"
+          @click="handleNav('skills', 'Skills', $event)"
           class="text-white font-bold text-[14px] font-['Roboto'] hover:text-violet-500 transition"
           >Skills</a
         >
         <a
           href="#experience"
-          @click="isMenuOpen = false"
+          @click="handleNav('experience', 'Work', $event)"
           class="text-white font-bold text-[14px] font-['Roboto'] hover:text-violet-500 transition"
           >Work</a
         >
         <a
           href="#contact"
-          @click="isMenuOpen = false"
+          @click="handleNav('contact', 'Contact', $event)"
           class="text-white font-bold text-[14px] font-['Roboto'] hover:text-violet-500 transition"
           >Contact Me</a
         >

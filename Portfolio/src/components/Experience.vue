@@ -29,7 +29,7 @@
         <h2
           v-motion
           :initial="{ opacity: 0, y: 40 }"
-          :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: 'easeOut' } }"
+          :visible="{ opacity: 1, y: 0, transition: { duration: 700, ease: 'easeOut' } }"
           class="text-4xl lg:text-[48px] font-bold font-['Poppins'] text-[#171717] mb-4 mt-[5rem]"
         >
           Experience
@@ -37,7 +37,7 @@
         <p
           v-motion
           :initial="{ opacity: 0, y: 30 }"
-          :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, delay: 150, ease: 'easeOut' } }"
+          :visible="{ opacity: 1, y: 0, transition: { duration: 700, delay: 150, ease: 'easeOut' } }"
           class="text-[14px] lg:text-[15px] text-gray-600 font-['Roboto'] italic mb-12 flex items-start gap-2 max-w-4xl"
         >
           <span class="text-violet-500 text-xl font-normal leading-none mt-1"
@@ -54,7 +54,7 @@
         <h3
           v-motion
           :initial="{ opacity: 0, x: -40 }"
-          :visible-once="{ opacity: 1, x: 0, transition: { duration: 600, ease: 'easeOut' } }"
+          :visible="{ opacity: 1, x: 0, transition: { duration: 600, ease: 'easeOut' } }"
           class="text-2xl lg:text-[24px] font-bold font-['Poppins'] text-violet-500 mb-8"
         >
           Work & Organizational Experience
@@ -74,7 +74,7 @@
             <div
               v-motion
               :initial="{ opacity: 0, y: 50 }"
-              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: 'easeOut' } }"
+              :visible="{ opacity: 1, y: 0, transition: { duration: 600, ease: 'easeOut' } }"
               class="flex flex-col"
             >
               <p
@@ -110,7 +110,7 @@
             <div
               v-motion
               :initial="{ opacity: 0, y: 50 }"
-              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 150, ease: 'easeOut' } }"
+              :visible="{ opacity: 1, y: 0, transition: { duration: 600, delay: 150, ease: 'easeOut' } }"
               class="flex flex-col"
             >
               <p
@@ -145,7 +145,7 @@
             <div
               v-motion
               :initial="{ opacity: 0, y: 50 }"
-              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 300, ease: 'easeOut' } }"
+              :visible="{ opacity: 1, y: 0, transition: { duration: 600, delay: 300, ease: 'easeOut' } }"
               class="flex flex-col"
             >
               <p
@@ -193,7 +193,7 @@
             <div
               v-motion
               :initial="{ opacity: 0, y: 50 }"
-              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: 'easeOut' } }"
+              :visible="{ opacity: 1, y: 0, transition: { duration: 600, ease: 'easeOut' } }"
               class="flex flex-col"
             >
               <p
@@ -228,7 +228,7 @@
             <div
               v-motion
               :initial="{ opacity: 0, y: 50 }"
-              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 150, ease: 'easeOut' } }"
+              :visible="{ opacity: 1, y: 0, transition: { duration: 600, delay: 150, ease: 'easeOut' } }"
               class="flex flex-col"
             >
               <p
@@ -267,7 +267,7 @@
         <h3
           v-motion
           :initial="{ opacity: 0, x: -40 }"
-          :visible-once="{ opacity: 1, x: 0, transition: { duration: 600, ease: 'easeOut' } }"
+          :visible="{ opacity: 1, x: 0, transition: { duration: 600, ease: 'easeOut' } }"
           class="text-2xl lg:text-[24px] font-bold font-['Poppins'] text-violet-500 mb-8 mt-4"
         >
           Projects Experience
@@ -287,7 +287,7 @@
             <div
               v-motion
               :initial="{ opacity: 0, y: 50 }"
-              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: 'easeOut' } }"
+              :visible="{ opacity: 1, y: 0, transition: { duration: 600, ease: 'easeOut' } }"
               class="flex flex-col"
             >
               <p
@@ -323,7 +323,7 @@
             <div
               v-motion
               :initial="{ opacity: 0, y: 50 }"
-              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 150, ease: 'easeOut' } }"
+              :visible="{ opacity: 1, y: 0, transition: { duration: 600, delay: 150, ease: 'easeOut' } }"
               class="flex flex-col"
             >
               <p
@@ -358,7 +358,7 @@
             <div
               v-motion
               :initial="{ opacity: 0, y: 50 }"
-              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 300, ease: 'easeOut' } }"
+              :visible="{ opacity: 1, y: 0, transition: { duration: 600, delay: 300, ease: 'easeOut' } }"
               class="flex flex-col"
             >
               <p
@@ -406,7 +406,7 @@
             <div
               v-motion
               :initial="{ opacity: 0, y: 50 }"
-              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: 'easeOut' } }"
+              :visible="{ opacity: 1, y: 0, transition: { duration: 600, ease: 'easeOut' } }"
               class="flex flex-col"
             >
               <p
@@ -441,7 +441,7 @@
             <div
               v-motion
               :initial="{ opacity: 0, y: 50 }"
-              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 150, ease: 'easeOut' } }"
+              :visible="{ opacity: 1, y: 0, transition: { duration: 600, delay: 150, ease: 'easeOut' } }"
               class="flex flex-col"
             >
               <p
@@ -476,7 +476,7 @@
             <div
               v-motion
               :initial="{ opacity: 0, y: 50 }"
-              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 300, ease: 'easeOut' } }"
+              :visible="{ opacity: 1, y: 0, transition: { duration: 600, delay: 300, ease: 'easeOut' } }"
               class="flex flex-col"
             >
               <p

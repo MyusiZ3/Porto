@@ -21,7 +21,7 @@
       <div
         v-motion
         :initial="{ opacity: 0, scale: 0.7 }"
-        :visible-once="{ opacity: 1, scale: 1, transition: { duration: 500, type: 'spring', stiffness: 200, damping: 15 } }"
+        :visible="{ opacity: 1, scale: 1, transition: { duration: 500, type: 'spring', stiffness: 200, damping: 15 } }"
         class="inline-block bg-violet-500 text-white font-['Poppins'] font-bold text-[14px] lg:text-[16px] px-6 py-2 rounded-full mb-6 mt-10"
       >
         MY SKILLS
@@ -31,7 +31,7 @@
       <h2
         v-motion
         :initial="{ opacity: 0, y: 40 }"
-        :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, delay: 100, ease: 'easeOut' } }"
+        :visible="{ opacity: 1, y: 0, transition: { duration: 700, delay: 100, ease: 'easeOut' } }"
         class="text-3xl lg:text-[48px] font-bold font-['Poppins'] text-white mb-6 uppercase tracking-wider"
       >
         Some Software That I Use
@@ -41,7 +41,7 @@
       <p
         v-motion
         :initial="{ opacity: 0, y: 30 }"
-        :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, delay: 200, ease: 'easeOut' } }"
+        :visible="{ opacity: 1, y: 0, transition: { duration: 700, delay: 200, ease: 'easeOut' } }"
         class="text-[#8E949F] font-['Roboto'] font-medium text-[14px] lg:text-[16px] max-w-3xl mx-auto leading-relaxed mb-16"
       >
         A versatile toolkit that supports my workflow across UI/UX, game
@@ -53,7 +53,7 @@
       <div
         v-motion
         :initial="{ opacity: 0, scaleX: 0 }"
-        :visible-once="{ opacity: 1, scaleX: 1, transition: { duration: 800, delay: 300, ease: 'easeOut' } }"
+        :visible="{ opacity: 1, scaleX: 1, transition: { duration: 800, delay: 300, ease: 'easeOut' } }"
         class="relative w-full max-w-8xl mx-auto mb-16"
       >
         <!-- The horizontal line -->
@@ -106,7 +106,7 @@
           <div
             v-motion
             :initial="{ opacity: 0, scale: 0.5, y: 20 }"
-            :visible-once="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, type: 'spring', stiffness: 250, damping: 15 } }"
+            :visible="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, type: 'spring', stiffness: 250, damping: 15 } }"
             class="w-16 h-16 lg:w-[85px] lg:h-[85px] bg-[#1D1D1D] rounded-[16px] lg:rounded-[24px] flex items-center justify-center hover:scale-110 transition-transform shadow-xl"
           >
             <img
@@ -119,7 +119,7 @@
           <div
             v-motion
             :initial="{ opacity: 0, scale: 0.5, y: 20 }"
-            :visible-once="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 80, type: 'spring', stiffness: 250, damping: 15 } }"
+            :visible="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 80, type: 'spring', stiffness: 250, damping: 15 } }"
             class="w-16 h-16 lg:w-[85px] lg:h-[85px] bg-[#1D1D1D] rounded-[16px] lg:rounded-[24px] flex items-center justify-center hover:scale-110 transition-transform shadow-xl"
           >
             <img
@@ -132,7 +132,7 @@
           <div
             v-motion
             :initial="{ opacity: 0, scale: 0.5, y: 20 }"
-            :visible-once="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 160, type: 'spring', stiffness: 250, damping: 15 } }"
+            :visible="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 160, type: 'spring', stiffness: 250, damping: 15 } }"
             class="w-16 h-16 lg:w-[85px] lg:h-[85px] bg-[#1D1D1D] rounded-[16px] lg:rounded-[24px] flex items-center justify-center hover:scale-110 transition-transform shadow-xl"
           >
             <img
@@ -145,7 +145,7 @@
           <div
             v-motion
             :initial="{ opacity: 0, scale: 0.5, y: 20 }"
-            :visible-once="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 240, type: 'spring', stiffness: 250, damping: 15 } }"
+            :visible="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 240, type: 'spring', stiffness: 250, damping: 15 } }"
             class="w-16 h-16 lg:w-[85px] lg:h-[85px] bg-[#1D1D1D] rounded-[16px] lg:rounded-[24px] flex items-center justify-center hover:scale-110 transition-transform shadow-xl"
           >
             <img
@@ -162,7 +162,7 @@
           <div
             v-motion
             :initial="{ opacity: 0, scale: 0.5, y: 20 }"
-            :visible-once="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 100, type: 'spring', stiffness: 250, damping: 15 } }"
+            :visible="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 100, type: 'spring', stiffness: 250, damping: 15 } }"
             class="w-16 h-16 lg:w-[85px] lg:h-[85px] bg-[#330000] text-[#FF9A00] text-3xl lg:text-[40px] font-bold font-['Roboto'] rounded-[16px] lg:rounded-[26px] flex items-center justify-center hover:scale-110 transition-transform shadow-xl"
           >
             Ai
@@ -171,7 +171,7 @@
           <div
             v-motion
             :initial="{ opacity: 0, scale: 0.5, y: 20 }"
-            :visible-once="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 180, type: 'spring', stiffness: 250, damping: 15 } }"
+            :visible="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 180, type: 'spring', stiffness: 250, damping: 15 } }"
             class="w-16 h-16 lg:w-[85px] lg:h-[85px] bg-[#001E36] text-[#31A8FF] text-3xl lg:text-[40px] font-bold font-['Roboto'] rounded-[16px] lg:rounded-[26px] flex items-center justify-center hover:scale-110 transition-transform shadow-xl"
           >
             Ps
@@ -180,7 +180,7 @@
           <div
             v-motion
             :initial="{ opacity: 0, scale: 0.5, y: 20 }"
-            :visible-once="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 260, type: 'spring', stiffness: 250, damping: 15 } }"
+            :visible="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 260, type: 'spring', stiffness: 250, damping: 15 } }"
             class="w-16 h-16 lg:w-[85px] lg:h-[85px] bg-[#470137] text-[#FF61F6] text-3xl lg:text-[40px] font-bold font-['Roboto'] rounded-[16px] lg:rounded-[26px] flex items-center justify-center hover:scale-110 transition-transform shadow-xl"
           >
             Xd
@@ -189,7 +189,7 @@
           <div
             v-motion
             :initial="{ opacity: 0, scale: 0.5, y: 20 }"
-            :visible-once="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 340, type: 'spring', stiffness: 250, damping: 15 } }"
+            :visible="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 340, type: 'spring', stiffness: 250, damping: 15 } }"
             class="w-16 h-16 lg:w-[85px] lg:h-[85px] bg-[#1D1D1D] rounded-[16px] lg:rounded-[24px] flex items-center justify-center hover:scale-110 transition-transform shadow-xl"
           >
             <img
@@ -202,7 +202,7 @@
           <div
             v-motion
             :initial="{ opacity: 0, scale: 0.5, y: 20 }"
-            :visible-once="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 420, type: 'spring', stiffness: 250, damping: 15 } }"
+            :visible="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 420, type: 'spring', stiffness: 250, damping: 15 } }"
             class="w-16 h-16 lg:w-[85px] lg:h-[85px] bg-linear-to-tr from-[#00C4CC] to-[#7D2AE8] rounded-[16px] lg:rounded-[24px] flex items-center justify-center hover:scale-110 transition-transform shadow-xl overflow-hidden"
           >
             <span
@@ -214,7 +214,7 @@
            <div
             v-motion
             :initial="{ opacity: 0, scale: 0.5, y: 20 }"
-            :visible-once="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 500, type: 'spring', stiffness: 250, damping: 15 } }"
+            :visible="{ opacity: 1, scale: 1, y: 0, transition: { duration: 500, delay: 500, type: 'spring', stiffness: 250, damping: 15 } }"
             class="w-16 h-16 lg:w-[85px] lg:h-[85px] bg-[#1D1D1D] rounded-[16px] lg:rounded-[24px] flex items-center justify-center hover:scale-110 transition-transform shadow-xl"
           >
             <img
@@ -230,7 +230,7 @@
       <p
         v-motion
         :initial="{ opacity: 0, y: 20 }"
-        :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 400, ease: 'easeOut' } }"
+        :visible="{ opacity: 1, y: 0, transition: { duration: 600, delay: 400, ease: 'easeOut' } }"
         class="text-[11px] lg:text-[16px] text-[#ffffff] font-['Roboto'] font-medium mb-16 max-w-4xl mx-auto leading-loose lg:leading-loose"
       >
         Unity &bull; Firebase &bull; VS Code &bull; Github &bull; Adobe
@@ -243,7 +243,7 @@
       <div
         v-motion
         :initial="{ opacity: 0, y: 15 }"
-        :visible-once="{ opacity: 1, y: 0, transition: { duration: 500, delay: 500, ease: 'easeOut' } }"
+        :visible="{ opacity: 1, y: 0, transition: { duration: 500, delay: 500, ease: 'easeOut' } }"
         class="flex flex-col items-center gap-6 pb-4"
       >
         <div class="flex gap-2.5">

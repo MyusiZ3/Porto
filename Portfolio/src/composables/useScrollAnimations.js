@@ -13,7 +13,7 @@
 export function fadeUp(delay = 0, duration = 700, distance = 40) {
   return {
     initial: { opacity: 0, y: distance },
-    visibleOnce: {
+    visible: {
       opacity: 1,
       y: 0,
       transition: { duration, delay, ease: "easeOut" },
@@ -27,7 +27,7 @@ export function fadeUp(delay = 0, duration = 700, distance = 40) {
 export function fadeDown(delay = 0, duration = 700, distance = 40) {
   return {
     initial: { opacity: 0, y: -distance },
-    visibleOnce: {
+    visible: {
       opacity: 1,
       y: 0,
       transition: { duration, delay, ease: "easeOut" },
@@ -41,7 +41,7 @@ export function fadeDown(delay = 0, duration = 700, distance = 40) {
 export function fadeLeft(delay = 0, duration = 700, distance = 60) {
   return {
     initial: { opacity: 0, x: -distance },
-    visibleOnce: {
+    visible: {
       opacity: 1,
       x: 0,
       transition: { duration, delay, ease: "easeOut" },
@@ -55,7 +55,7 @@ export function fadeLeft(delay = 0, duration = 700, distance = 60) {
 export function fadeRight(delay = 0, duration = 700, distance = 60) {
   return {
     initial: { opacity: 0, x: distance },
-    visibleOnce: {
+    visible: {
       opacity: 1,
       x: 0,
       transition: { duration, delay, ease: "easeOut" },
@@ -69,7 +69,7 @@ export function fadeRight(delay = 0, duration = 700, distance = 60) {
 export function scaleUp(delay = 0, duration = 600, startScale = 0.85) {
   return {
     initial: { opacity: 0, scale: startScale },
-    visibleOnce: {
+    visible: {
       opacity: 1,
       scale: 1,
       transition: { duration, delay, ease: "easeOut" },
@@ -83,7 +83,7 @@ export function scaleUp(delay = 0, duration = 600, startScale = 0.85) {
 export function pop(delay = 0, duration = 500) {
   return {
     initial: { opacity: 0, scale: 0.6 },
-    visibleOnce: {
+    visible: {
       opacity: 1,
       scale: 1,
       transition: {
