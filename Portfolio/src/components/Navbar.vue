@@ -10,6 +10,9 @@ const toggleMenu = () => {
 
 <template>
   <nav
+    v-motion
+    :initial="{ opacity: 0, y: -20 }"
+    :enter="{ opacity: 1, y: 0, transition: { duration: 600, ease: 'easeOut' } }"
     class="bg-[#171717]/100 backdrop-blur-md py-3 lg:py-3 sticky top-0 z-50 transition-all duration-300"
   >
     <div

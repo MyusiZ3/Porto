@@ -27,11 +27,17 @@
 
       <div class="relative z-10 w-full lg:w-11/12 mx-auto mb-20">
         <h2
+          v-motion
+          :initial="{ opacity: 0, y: 40 }"
+          :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, ease: 'easeOut' } }"
           class="text-4xl lg:text-[48px] font-bold font-['Poppins'] text-[#171717] mb-4 mt-[5rem]"
         >
           Experience
         </h2>
         <p
+          v-motion
+          :initial="{ opacity: 0, y: 30 }"
+          :visible-once="{ opacity: 1, y: 0, transition: { duration: 700, delay: 150, ease: 'easeOut' } }"
           class="text-[14px] lg:text-[15px] text-gray-600 font-['Roboto'] italic mb-12 flex items-start gap-2 max-w-4xl"
         >
           <span class="text-violet-500 text-xl font-normal leading-none mt-1"
@@ -46,6 +52,9 @@
 
         <!-- Work & Organizational Experience -->
         <h3
+          v-motion
+          :initial="{ opacity: 0, x: -40 }"
+          :visible-once="{ opacity: 1, x: 0, transition: { duration: 600, ease: 'easeOut' } }"
           class="text-2xl lg:text-[24px] font-bold font-['Poppins'] text-violet-500 mb-8"
         >
           Work & Organizational Experience
@@ -62,7 +71,12 @@
             class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-12 relative z-10"
           >
             <!-- Item 1 -->
-            <div class="flex flex-col">
+            <div
+              v-motion
+              :initial="{ opacity: 0, y: 50 }"
+              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: 'easeOut' } }"
+              class="flex flex-col"
+            >
               <p
                 class="text-[15px] font-bold text-[#302F49] font-['Roboto'] uppercase mb-2"
               >
@@ -93,7 +107,12 @@
               </div>
             </div>
             <!-- Item 2 -->
-            <div class="flex flex-col">
+            <div
+              v-motion
+              :initial="{ opacity: 0, y: 50 }"
+              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 150, ease: 'easeOut' } }"
+              class="flex flex-col"
+            >
               <p
                 class="text-[15px] font-bold text-[#302F49] font-['Roboto'] uppercase mb-2"
               >
@@ -123,7 +142,12 @@
               </div>
             </div>
             <!-- Item 3 -->
-            <div class="flex flex-col">
+            <div
+              v-motion
+              :initial="{ opacity: 0, y: 50 }"
+              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 300, ease: 'easeOut' } }"
+              class="flex flex-col"
+            >
               <p
                 class="text-[15px] font-bold text-[#302F49] font-['Roboto'] uppercase mb-2"
               >
@@ -166,7 +190,12 @@
             class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-12 relative z-10"
           >
             <!-- Item 4 -->
-            <div class="flex flex-col">
+            <div
+              v-motion
+              :initial="{ opacity: 0, y: 50 }"
+              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: 'easeOut' } }"
+              class="flex flex-col"
+            >
               <p
                 class="text-[15px] font-bold text-[#302F49] font-['Roboto'] uppercase mb-2"
               >
@@ -196,7 +225,12 @@
               </div>
             </div>
             <!-- Item 5 -->
-            <div class="flex flex-col">
+            <div
+              v-motion
+              :initial="{ opacity: 0, y: 50 }"
+              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 150, ease: 'easeOut' } }"
+              class="flex flex-col"
+            >
               <p
                 class="text-[15px] font-bold text-[#302F49] font-['Roboto'] uppercase mb-2"
               >
@@ -231,6 +265,9 @@
 
         <!-- Projects Experience -->
         <h3
+          v-motion
+          :initial="{ opacity: 0, x: -40 }"
+          :visible-once="{ opacity: 1, x: 0, transition: { duration: 600, ease: 'easeOut' } }"
           class="text-2xl lg:text-[24px] font-bold font-['Poppins'] text-violet-500 mb-8 mt-4"
         >
           Projects Experience
@@ -247,7 +284,12 @@
             class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-12 relative z-10"
           >
             <!-- Project 1 -->
-            <div class="flex flex-col">
+            <div
+              v-motion
+              :initial="{ opacity: 0, y: 50 }"
+              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: 'easeOut' } }"
+              class="flex flex-col"
+            >
               <p
                 class="text-[15px] font-bold text-[#302F49] font-['Roboto'] uppercase mb-2"
               >
@@ -278,7 +320,12 @@
               </div>
             </div>
             <!-- Project 2 -->
-            <div class="flex flex-col">
+            <div
+              v-motion
+              :initial="{ opacity: 0, y: 50 }"
+              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 150, ease: 'easeOut' } }"
+              class="flex flex-col"
+            >
               <p
                 class="text-[15px] font-bold text-[#302F49] font-['Roboto'] uppercase mb-2"
               >
@@ -308,7 +355,12 @@
               </div>
             </div>
             <!-- Project 3 -->
-            <div class="flex flex-col">
+            <div
+              v-motion
+              :initial="{ opacity: 0, y: 50 }"
+              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 300, ease: 'easeOut' } }"
+              class="flex flex-col"
+            >
               <p
                 class="text-[15px] font-bold text-[#302F49] font-['Roboto'] uppercase mb-2"
               >
@@ -351,7 +403,12 @@
             class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-12 relative z-10"
           >
             <!-- Project 4 -->
-            <div class="flex flex-col">
+            <div
+              v-motion
+              :initial="{ opacity: 0, y: 50 }"
+              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, ease: 'easeOut' } }"
+              class="flex flex-col"
+            >
               <p
                 class="text-[15px] font-bold text-[#302F49] font-['Roboto'] uppercase mb-2"
               >
@@ -381,7 +438,12 @@
               </div>
             </div>
             <!-- Project 5 -->
-            <div class="flex flex-col">
+            <div
+              v-motion
+              :initial="{ opacity: 0, y: 50 }"
+              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 150, ease: 'easeOut' } }"
+              class="flex flex-col"
+            >
               <p
                 class="text-[15px] font-bold text-[#302F49] font-['Roboto'] uppercase mb-2"
               >
@@ -411,7 +473,12 @@
               </div>
             </div>
             <!-- Project 6 -->
-            <div class="flex flex-col">
+            <div
+              v-motion
+              :initial="{ opacity: 0, y: 50 }"
+              :visible-once="{ opacity: 1, y: 0, transition: { duration: 600, delay: 300, ease: 'easeOut' } }"
+              class="flex flex-col"
+            >
               <p
                 class="text-[15px] font-bold text-[#302F49] font-['Roboto'] uppercase mb-2"
               >
