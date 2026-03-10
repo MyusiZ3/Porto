@@ -10,10 +10,10 @@ const toggleMenu = () => {
 
 <template>
   <nav
-    class="bg-[#171717]/95 backdrop-blur-md py-3 lg:py-2 sticky top-0 z-50 transition-all duration-300"
+    class="bg-[#171717]/100 backdrop-blur-md py-3 lg:py-3 sticky top-0 z-50 transition-all duration-300"
   >
     <div
-      class="container mx-auto flex justify-between items-center gap-2 px-6 lg:px-18"
+      class="container mx-auto flex justify-between items-center gap-2 px-6 lg:px-38"
     >
       <div class="flex items-center gap-2 relative z-50">
         <img src="/images/logo.png" alt="logo" class="w-10 lg:w-14" />

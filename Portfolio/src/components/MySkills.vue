@@ -170,30 +170,14 @@
             >
           </div>
           <!-- IbisPaint (Custom Simulation) -->
-          <div
-            class="w-16 h-16 lg:w-[85px] lg:h-[85px] bg-[#1D1D1D] rounded-[16px] lg:rounded-[24px] flex items-center justify-center hover:scale-110 transition-transform shadow-xl relative"
+           <div
+            class="w-16 h-16 lg:w-[85px] lg:h-[85px] bg-[#1D1D1D] rounded-[16px] lg:rounded-[24px] flex items-center justify-center hover:scale-110 transition-transform shadow-xl"
           >
-            <div
-              class="w-8 lg:w-11 h-8 lg:h-11 rounded-full border-[5px] border-white flex items-center justify-center relative shadow-sm"
-              style="
-                background: conic-gradient(
-                  from 0deg,
-                  red,
-                  yellow,
-                  lime,
-                  cyan,
-                  blue,
-                  magenta,
-                  red
-                );
-              "
-            >
-              <div class="w-3 lg:w-4 h-3 lg:h-4 bg-white rounded-full"></div>
-            </div>
-            <span
-              class="absolute bottom-1 right-1.5 lg:bottom-1.5 lg:right-2 text-white text-[10px] lg:text-[12px] font-bold font-['Roboto']"
-              >ip</span
-            >
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1400/1*hLRURjB2M29RAHVnOj6nbw.png"
+              alt="Figma"
+              class="w-10 lg:w-25 h-10 lg:h-22 rounded-[16px] lg:rounded-[24px]"
+            />
           </div>
         </div>
       </div>
